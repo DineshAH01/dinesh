@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/dinesh/static/css/main.3d3ef11c.css",
+    "main.js": "/dinesh/static/js/main.abed37d0.js",
+    "static/media/Dinesh.jpg": "/dinesh/static/media/Dinesh.723c07d73aeb46511b1d.jpg",
+    "index.html": "/dinesh/index.html",
+    "main.3d3ef11c.css.map": "/dinesh/static/css/main.3d3ef11c.css.map",
+    "main.abed37d0.js.map": "/dinesh/static/js/main.abed37d0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3d3ef11c.css",
+    "static/js/main.abed37d0.js"
+  ]
+}
