@@ -40,6 +40,10 @@ const NavBar = () =>{
         setToggleIcon(!toggleIcon);
     }
 
+    const handleLinkClick = () => {
+        setToggleIcon(false); // Close the navbar when a link is clicked
+    };
+
     return(
         <div className="navbar">
             <div className="navbar_container">
@@ -50,7 +54,10 @@ const NavBar = () =>{
             <ul className={`navbar_container_menu ${toggleIcon ? 'active' : ''}`}>
                 {data.map((item, index)=>(
                     <li className="navbar_container_menu_item" key={index} >
-                        <Link to={item.to} className="navbar_container_menu_item_link">
+                        <Link to={item.to} 
+                        className="navbar_container_menu_item_link"
+                        onClick={handleLinkClick} // Close navbar on link click
+                        >
                             {item.label}
                         </Link>
                     </li>

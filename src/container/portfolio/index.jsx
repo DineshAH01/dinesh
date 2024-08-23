@@ -1,48 +1,80 @@
 import React, { useState } from 'react';
 import { BsInfoCircleFill } from 'react-icons/bs';
 import PageHeaderContent from '../../componet/pageHeaderContent';
-import BmiImage from "../../images/BMIImage.jpeg"
-import BmiImage2 from "../../images/BMIImage2.jpeg"
-import BmiImage3 from "../../images/BMIImage3.jpeg"
-import BmiImage4 from "../../images/BMIImage4.jpeg"
-import BmiImage5 from "../../images/BMIImage5.jpeg"
+import DigitalClockImg from "../../images/DigitalClock.jpg"
+import WeatherImg from "../../images/Weather.png"
+import BmiImg from "../../images/BMIImage.jpeg"
+import FoodCartImg from "../../images/FoodCart.png"
+import QuizImg from "../../images/QuizImg.jpg"
+import CurrencyConverterImg from "../../images/CurrencyConverterImg.png"
+import PasswordGenerator from "../../images/PasswordGenerator.jpeg"
+import CalendarImg from "../../images/CalendarImg.jpeg"
+import AdviceImg from "../../images/AdviceImg.png"
 import './style.scss';
 
 const portfolioData = [
   {
     id : 2,
-    name : "BMICalculator",
-    image : BmiImage,
+    name : "Digital Clock App",
+    image : DigitalClockImg,
 
-    link : ''
-  },
-  {
-    id : 3,
-    name : "Notes APP",
-    image : BmiImage2,
-
-    link : ''
+    link : 'https://dineshah01.github.io/Digital-Clock-App/'
   },
   {
     id : 2,
-    name : "Supplier Design",
-    image : BmiImage3,
+    name : "Weather App",
+    image : WeatherImg,
 
-    link : ''
+    link : 'https://dineshah01.github.io/Weather-App/'
   },
   {
     id : 2,
-    name : "Todo App",
-    image : BmiImage4,
+    name : "BMI Calculator App",
+    image : BmiImg,
 
-    link : ''
+    link : 'https://dineshah01.github.io/BMI-Calculator/'
   },
   {
     id : 2,
-    name : "Shopping card design",
-    image : BmiImage5,
+    name : "Food Cart",
+    image : FoodCartImg,
 
-    link : ''
+    link : 'https://dineshah01.github.io/Food-Cart/'
+  },
+  {
+    id : 2,
+    name : "Quiz App",
+    image : QuizImg,
+
+    link : 'https://dineshah01.github.io/Quiz-App/'
+  },
+  {
+    id : 2,
+    name : "Currency Converter App",
+    image : CurrencyConverterImg,
+
+    link : 'https://dineshah01.github.io/Currency-Converter-App/'
+  },
+  {
+    id : 2,
+    name : "Password Generator App",
+    image : PasswordGenerator,
+
+    link : 'https://dineshah01.github.io/Password-Generator-App/'
+  },
+  {
+    id : 2,
+    name : "Calendar App",
+    image : CalendarImg,
+
+    link : 'https://dineshah01.github.io/Calendar-App/'
+  },
+  {
+    id : 2,
+    name : "Advice App",
+    image : AdviceImg,
+
+    link : 'https://dineshah01.github.io/Advice-App/'
   },
 ]
 
@@ -54,11 +86,11 @@ const filterData = [
   },
   {
     filterId : 2,
-    label : 'ReactJs'
+    label : 'Development'
   },
   {
     filterId : 3,
-    label : 'Fullstack'
+    label : 'Design'
   }
 ]
 
@@ -118,7 +150,9 @@ const Portfolio = () => {
                       index === hoveredValue && (
                         <div>
                           <p>{item.name}</p>
-                          <button>Visit</button>
+                          <a href={item.link} target="_blank" rel="noopener noreferrer">
+                            <button>Visit</button>
+                          </a>
                         </div>
                       )
                     }
