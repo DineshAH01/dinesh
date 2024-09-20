@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/dinesh/static/css/main.a0641492.css",
-    "main.js": "/dinesh/static/js/main.1bd3dec7.js",
+    "main.css": "/dinesh/static/css/main.a8c1dd6b.css",
+    "main.js": "/dinesh/static/js/main.bf28754f.js",
     "static/media/FoodCart.png": "/dinesh/static/media/FoodCart.4d70128dcdf05d895b57.png",
     "static/media/Weather.png": "/dinesh/static/media/Weather.0af6aac9f8f106e0b9de.png",
     "static/media/DigitalClock.jpg": "/dinesh/static/media/DigitalClock.a2856b0e54f7b14af053.jpg",
     "static/media/PasswordGenerator.jpeg": "/dinesh/static/media/PasswordGenerator.505c47c7ea52a3cd563b.jpeg",
     "static/media/QuizImg.jpg": "/dinesh/static/media/QuizImg.c671455e5276c72a2f4b.jpg",
     "static/media/BMIImage.jpeg": "/dinesh/static/media/BMIImage.0e19f7346e1b8424b8a7.jpeg",
+    "static/media/resume.pdf": "/dinesh/static/media/resume.4e6a5eeb34c2e92666e7.pdf",
     "static/media/AdviceImg.png": "/dinesh/static/media/AdviceImg.e5876f79949d551e5fc7.png",
     "static/media/CurrencyConverterImg.png": "/dinesh/static/media/CurrencyConverterImg.a6777d018568e0ec1e68.png",
     "static/media/Dinesh.jpg": "/dinesh/static/media/Dinesh.723c07d73aeb46511b1d.jpg",
     "static/media/CalendarImg.jpeg": "/dinesh/static/media/CalendarImg.f8ec4d85e1e794c0129f.jpeg",
     "index.html": "/dinesh/index.html",
-    "main.a0641492.css.map": "/dinesh/static/css/main.a0641492.css.map",
-    "main.1bd3dec7.js.map": "/dinesh/static/js/main.1bd3dec7.js.map"
+    "main.a8c1dd6b.css.map": "/dinesh/static/css/main.a8c1dd6b.css.map",
+    "main.bf28754f.js.map": "/dinesh/static/js/main.bf28754f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0641492.css",
-    "static/js/main.1bd3dec7.js"
+    "static/css/main.a8c1dd6b.css",
+    "static/js/main.bf28754f.js"
   ]
 }
