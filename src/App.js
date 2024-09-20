@@ -22,6 +22,7 @@ function App() {
   };
 
   const renderParticleJsInHomePage = location.pathname === "/dinesh"
+  
   return (
     <div className="App">
       {/* particles js */}

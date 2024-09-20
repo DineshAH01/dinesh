@@ -38,12 +38,12 @@ export const data ={
             startDate: '2015',
             endDate: '2019',
         },
-        {
-            title: "MBA ( HR & Finance )",
-            subTitle: "Dr.Sivanthi Aditanar College Of Engineering",
-            description: "Percentage 73",
-            startDate: '2019',
-            endDate: '2021',
-        },
+        // {
+        //     title: "MBA ( HR & Finance )",
+        //     subTitle: "Dr.Sivanthi Aditanar College Of Engineering",
+        //     description: "Percentage 73",
+        //     startDate: '2019',
+        //     endDate: '2021',
+        // },
     ]
 }

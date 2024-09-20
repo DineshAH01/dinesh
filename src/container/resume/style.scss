@@ -87,6 +87,28 @@
     }
 }
 
+
+.download-resume-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    button{
+        cursor: pointer;
+        padding: 10px 65px;
+        font-size: 2rem;
+        background: transparent;
+        color: var(--yellow-theme-main-color);
+        border: 1.5px solid var(--yellow-theme-main-color);
+        border-radius: 4px;
+        font-weight: 500;
+
+        &:hover{
+            background-color: var(--yellow-theme-main-color);
+            color: #000000;
+        }
+    }
+  }  
+
 @media only screen and (max-width : 768px){
     .timeline{
         flex-direction: column;

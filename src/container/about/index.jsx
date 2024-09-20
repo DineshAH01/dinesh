@@ -30,7 +30,7 @@ const personalDetails =[
   },
 ];
 
-const jobSummary ="A dedicated software developer with over 1 year and 3 months of hands-on experience in Java and React. Proficient in building and optimizing web applications using Spring Boot for backend services and React for dynamic, responsive front-end interfaces. Adept at working in agile environments, collaborating with cross-functional teams, and delivering high-quality code within deadlines. Strong problem-solving skills with a focus on creating efficient, scalable solutions."
+const jobSummary ="Innovative Software Engineer with 1 year and 4 months of experience in customising non-open source projects using PML and FFEIN languages. Proven expertise in enhancing Aveva and Bocad systems through tailored feature development and automation. Experienced in personal projects involving Java and React, showcasing a strong foundation in these technologies. Seeking to leverage my technical skills and problem-solving abilities in a dynamic environment that fosters growth and innovation."
 
 const About = () => {
   return (
